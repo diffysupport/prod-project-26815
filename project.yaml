@@ -1,0 +1,108 @@
+basic:
+    name: 'Prosus New'
+    environments:
+        production: 'https://www.prosus.com/'
+        staging: 'https://prosus-corp-v2.cd.invdcloud-is.co.uk/'
+        development: ''
+    basicAuth:
+        staging: { user: prosus, password: Prosus@Investis }
+    breakpoints:
+        - 320
+        - 640
+        - 762
+        - 1200
+        - 1536
+    pages:
+        - /
+        - /about-us
+        - /ecosystems
+        - /portfolio
+        - /impact
+        - /impact/our-approach
+        - /impact/our-approach/responsible-investing
+        - /impact/our-approach/responsible-business
+        - /impact/our-approach/our-people
+        - /impact/climate-action
+        - /impact/climate-action/our-reduction-pathway
+        - /impact/climate-action/decarbonising-our-businesses
+        - /impact/climate-action/just-and-fair-transition
+        - /impact/climate-action/climate-related-risks-and-opportunities
+        - /impact/environmental-impact
+        - /impact/environmental-impact/circular-economy
+        - /impact/environmental-impact/sustainable-delivery
+        - /impact/environmental-impact/biodiversity
+        - /impact/environmental-impact/supplier-sustainability
+        - /news-insights
+        - /investors
+        - /investors/investing-in-prosus
+        - /investors/investing-in-prosus/net-asset-value
+        - /investors/investing-in-prosus/bonds
+        - /investors/investing-in-prosus/esg
+        - /investors/share-information
+        - /investors/share-information/share-price-and-market-cap
+        - /investors/share-information/share-buyback-programmes
+        - /investors/share-information/shares-in-issue
+        - /investors/share-information/dividend
+        - /investors/results-reports-events
+        - /investors/results-reports-events/latest-financial-results
+        - /investors/results-reports-events/financial-calendar
+        - /news-insights/regulatory-updates
+        - /investors/results-reports-events/results-reports-and-events-archive
+        - /investors/results-reports-events/capital-markets-day
+        - /investors/shareholder-centre
+        - /investors/shareholder-centre/shareholder-meetings
+        - /investors/shareholder-centre/analyst-coverage
+        - /investors/shareholder-centre/frequently-asked-questions
+        - /investors/investor-relations-contacts
+        - /prosus-ventures
+        - /news-insights/group-updates/2025/prosus-and-despegar-complete-acquisition
+        - /prosus-to-acquire-just-eat-takeaway-to-create-a-european-food-delivery-champion
+        - /news-insights/group-updates/2025/six-ai-predictions-for-2025
+        - /news-insights/group-updates/2024/prosus-backed-swiggy-completes-usd-1-3bn-ipo-in-india
+        - /news-insights/group-updates/2025/ceo-letters-to-shareholders
+        - /news-insights/group-updates/2025/prosus-internship-programme
+        - /news-insights/group-updates/2025/new-prosus-report-makes-the-case-for-european-big-tech
+        - /news-insights/group-updates/2025/uber-and-ifood-announce-strategic-partnership-in-brazil
+        - /news-insights/group-updates/2024/ai-at-prosus-ifood-case-study-part-2
+        - /news-insights/group-updates/2025/following-months-of-record-high-ai-funding-new-prosus-report
+        - /news-insights/group-updates/2025/the-state-of-indias-digital-economy-side-2025-report
+        - /news-insights/group-updates/2025/prosus-ventures-leads-dollar-13-point-5m-investment-in-luzia
+        - /news-insights/group-updates/2025/our-culture-the-prosus-way
+        - /news-insights/group-updates/2025/more-must-be-done-to-champion-women-led-tech-companies-in-india
+        - /news-insights/group-updates/2024/ai-at-prosus-olx-case-study
+        - /alerts
+        - /leadership
+        - /governance
+        - /policies
+        - /tax
+        - /site-services/privacy
+        - /site-services/cyber-security
+        - /site-services/terms-of-use
+        - /site-services/accessibility
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 5
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
